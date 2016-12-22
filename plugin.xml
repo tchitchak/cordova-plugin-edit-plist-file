@@ -30,17 +30,9 @@
     <!-- ios -->
     <platform name="ios">
         
-        <!-- iOS9 whitelisting -->
-        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
-            <array>
-                <string>twitter</string>
-                <string>fb</string>
-                <string>whatsapp</string>
-                <string>itms-apps</string>
-                <string>youtube</string>
-                <string>soundcloud</string>
-            </array>
-        </config-file>
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+         <string>Used to save your selfies, photos and wallpapers to your photo library</string>
+      </config-file>
         
         
         
